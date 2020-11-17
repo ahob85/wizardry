@@ -1,0 +1,36 @@
+:: town center
+<<if $character == "Ambriel">>
+  As Ambriel alighted to the snowy landscape before the town, she looked upon the ill-fated town and felt a deep sense of sorrow.
+
+  "What has happened here?" she asked herself.
+<</if>>\
+<<if $character == "Bianca">>
+  Bianca's tribe hailed from the tropical jungles closer to the equator. Thus, she was not too pleased to find herself here in the icy tundra.
+
+  "Nevertheless, I must press on," she thought.
+<</if>>\
+<<if $character == "Deyja">>
+  Her entire figure cloaked in black, Deyja approached Damerel slowly, cautiously awaiting an ambush by those who might have followed her here. After waiting for a moment, she decided she was safe.
+
+  "No one would dare come this far just for me," she assured herself.
+<</if>>\
+<<if $character == "Gulfore">>
+  Though the winter winds blew thick and heavy, the golem Gulfore plodded forth unperturbed.
+
+  "THIS CONSTRUCT HAS ARRIVED AT ITS DESTINATION," came a voice from within the golem. "EXECUTE EXPLORE MODE."
+<</if>>\
+<<if $character == "">>
+<</if>>\
+
+@@.center;
+Choose a destination:
+  [[Naexi's Bar|town bar]]
+  [[The Sleeping Giant Inn|town inn]]
+  [[Krog's Arms and Armor|town armory]]
+@@
+
+:: town bar
+
+:: town inn
+
+:: town armory
