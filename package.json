@@ -43,10 +43,8 @@
     "gulp-csslint": "^1.0.1",
     "gulp-jshint": "^2.1.0",
     "gulp-noop": "^1.0.0",
-    "gulp-sass": "^4.0.2",
     "gulp-uglify": "^3.0.2",
-    "jshint": "^2.10.2",
-    "node-sass": "^4.12.0"
+    "jshint": "^2.10.2"
   },
   "repository": {
     "type": "git",
@@ -55,5 +53,6 @@
   "bugs": {
     "url": "https://github.com/cliffhall/slim-tweego/issues"
   },
-  "homepage": "https://github.com/cliffhall/slim-tweego#readme"
+  "homepage": "https://github.com/cliffhall/slim-tweego#readme",
+  "dependencies": {}
 }

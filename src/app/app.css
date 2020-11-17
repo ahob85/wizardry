@@ -10,10 +10,11 @@ To use CSS instead of SCSS:
  4) Files in this folder ending with .css will be compiled and minified to project/modules/app.min.css
 
 */
-body
-{
-    background: white;
-    color: black;
-    font-family: Palatino, sans-serif;
-    font-size: 18px;
+.center {
+  text-align: center;
+}
+
+img {
+  display: block;
+  margin: auto;
 }

@@ -10,8 +10,8 @@ const autoprefix = require('gulp-autoprefixer');
 const jshint     = require('gulp-jshint');
 const csslint    = require('gulp-csslint');
 const noop       = require('gulp-noop');
-const sass       = require('gulp-sass');
-sass.compiler    = require('node-sass');
+//const sass       = require('gulp-sass');
+//sass.compiler    = require('node-sass');
 
 // CONFIGURATION
 const CFG = {
@@ -27,7 +27,7 @@ const CFG = {
     CSS: {
         MINIFY: true,
         AUTOPREFIX: true,
-        SASS: true,
+        SASS: false,
         LINT: {
             'box-model' : false,
             'adjoining-classes' : false,

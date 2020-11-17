@@ -20,9 +20,11 @@ Wizardry
 <<audio "damerel" play loop>>
 [img[../project/assets/images/damerel.jpg]]
 
+/*
 Skill: $skill
 Stamina: $stamina
 Luck: $luck
+*/
 
 Here lie the frigid ruins of Damerel, an otherwise unremarkable site at the northern edge of the Realm, except that it was imperially condemned for centuries.
 
