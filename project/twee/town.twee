@@ -1,6 +1,6 @@
 :: town center
 <<if $character == "Ambriel">>
-  As Ambriel alighted to the snowy landscape before the town, she looked upon the ill-fated town and felt a deep sense of sorrow.
+  As Ambriel alighted to the snowy landscape, she looked upon the ill-fated town and felt a deep sense of sorrow.
 
   "What has happened here?" she asked herself.
 <</if>>\
