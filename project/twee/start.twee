@@ -16,19 +16,25 @@ Wizardry
 <<set $luck = random(6) + 6>>
 
 :: story opening 1
-<<waitforaudio>>\
-<<audio "damerel" play loop>>\
-[img[../project/assets/images/damerel.jpg]]\
-/*
-Skill: $skill\
-Stamina: $stamina\
-Luck: $luck\
-*/
-Here lie the frigid ruins of Damerel, an otherwise unremarkable site at the northern edge of the Realm, except that it was imperially condemned for centuries.
+"Two years ago, Queen Jilfaen died from circumstances that remain unresolved to this day. Upon her death, Jilfaen's sole heiress was immediately bequeathed the crown. This event made her, at age fifteen, the youngest queen in the history of the Realm."
 
-Damerel was once a prosperous town that somehow met its end several centuries ago, when the Realm was still ruled by Queen Jilfaen. According to those tales, an inexplicable affliction was swiftly unleashed upon the town, leaving behind no traces of life.
+Tyrell paused and peered out of the window into the calm winter night. Janus could not detect if his master was lost in thought, or anticipating an eavesdropper lurking from the quietude. Afraid of breaking the tension, Janus pretended to stir his ink.
 
-Upon learning of this tragedy, though not necessarily of its cause, Queen Jilfaen immediately issued a law that forbade anyone from entering the vicinity of Damerel, for any purpose whatsoever, for as long as the Realm survived. Every descendant of Jilfaen strictly upheld this law, and eventually the remote town was all but lost in history.
+"I would like to start over," Tyrell said with narrowing eyes. "Again."
+
+Without a word, Janus discarded the scroll onto the pile of others near the fireplace and retrieved a new one from his sack.
+
+"My apologies, Janus. I understand your time is valuable, and I've just wasted perhaps hours of it."
+
+Janus smiled obsequiously. "We can try as many times as it pleases you, my lord."
+
+Tyrell dwelled on this for a moment. Janus' words were carried by a subtle ironic tone that he could not excuse.
+
+"Tyrell, I'm grateful for your patience. However, do note that this is not to please myself. I am deeply ashamed. Simply put, I do not deserve my position, having lost two queens now. I only send for heroes beyond the Realm now because our own soldiers have not been able to find Enhasa yet."
+
+Enhasa, the enigmatic fifteen year old.
+
+"Greetings, friends. I am Tyrell, Royal Advisor to the Queen of the Realm. Two years ago, our beneficent Queen Jilfaen was assassinated by dissidents, leaving her teenage daughter Enhasa to take her position. Enhasa has performed admirably for someone so young, as our Realm has only grown since her "
 
 @@.center;
   [[Continue|story opening 2]]

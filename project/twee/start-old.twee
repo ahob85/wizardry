@@ -1,0 +1,50 @@
+:: StoryData
+{
+    "ifid": "BCA918F4-9F51-485C-869C-7D1B7368311F",
+    "start": "story opening 1"
+}
+
+:: StoryTitle
+Wizardry
+
+:: StoryInit
+/* Cached Audio */
+<<cacheaudio "damerel" "../project/assets/music/damerel.mp3">>
+/* Basic Attributes */
+<<set $skill = random(6) + 6>>
+<<set $stamina = random(6) + random(6) + 12>>
+<<set $luck = random(6) + 6>>
+
+:: story opening 1
+<<waitforaudio>>\
+<<audio "damerel" play loop>>\
+[img[../project/assets/images/damerel.jpg]]\
+/*
+Skill: $skill\
+Stamina: $stamina\
+Luck: $luck\
+*/
+Here lie the frigid ruins of Damerel, an otherwise unremarkable site at the northern edge of the Realm, except that it was imperially condemned for centuries.
+
+Damerel was once a prosperous town that somehow met its end several centuries ago, when the Realm was still ruled by Queen Jilfaen. According to those tales, an inexplicable affliction was swiftly unleashed upon the town, leaving behind no traces of life.
+
+Upon learning of this tragedy, though not necessarily of its cause, Queen Jilfaen immediately issued a law that forbade anyone from entering the vicinity of Damerel, for any purpose whatsoever, for as long as the Realm survived. Every descendant of Jilfaen strictly upheld this law, and eventually the remote town was all but lost in history.
+
+@@.center;
+  [[Continue|story opening 2]]
+@@
+
+:: story opening 2
+[img[../project/assets/images/enhasa-1.jpg]]\
+
+That is, until last year, when the crown of the Realm fell onto the head of the young and enigmatic Enhasa. Though left unsaid, everyone knew there was always something uncanny about Enhasa, which became all more obvious with her as the new Queen. Since the untimely death of her mother, Enhasa had taken quite the obsession with what was rumored to be "arcane research". She did well to keep her distance from those even in her own court, frequently isolating herself within her imperial library.
+
+Then the unexpected occurred. Several months ago, Enhasa emerged with a resolution to unearth the secret of Damerel once and for all. Because it would be imprudent for an Queen to shirk her responsibilities for the sake of a personal quest, she proclaimed that Damerel would be open to any adventurers who would dare solve the mystery of its demise and report any information they find back to her. Directly.
+
+Within days, the once forsaken town of Damerel became a bustling hub of adventurers from all walks of life, Realm and beyond. Some wished to serve Queen Enhasa and their Realm, while others sought fame and fortune.
+
+One such adventurer now enters Damerel alone...
+
+@@.center;
+  [[Continue|character select]]
+@@

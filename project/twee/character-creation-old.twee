@@ -1,0 +1,38 @@
+:: character select
+Which role will you play in this story?
+
+<<listbox "$character" autoselect>>
+  <<option "Ambriel">>
+  <<option "Bianca">>
+  <<option "Deyja">>
+  <<option "Gulfore">>
+  <<option "Jafar and Jasmine">>
+  <<option "Nadia">>
+  <<option "Melvin">>
+  <<option "Oggdush">>
+  <<option "Wrufein">>
+<</listbox>>
+
+* ''Ambriel'' - Female Angel. A guardian angel who has abruptly abandoned her station to investigate Damerel.
+* ''Bianca'' - Female Beastman. A martial artist on a pilgrimage of mental and physical enlightenment. Her journey has brought her to the Realm, where Damerel awaits as her final trial.
+* ''Deyja'' - Female Demon. An agent from hell who has failed her most recent mission. She now flees her masters by concealing herself under the shroud of Damerel.
+* ''Gulfore'' - Golem. A construct fashioned by a lost civilization. Because it cannot recall its purpose, it has wandered aimlessly for as long as it can remember. However, recently something has drawn it to Damerel.
+* ''Jafar and Jasmine'' - Male Fire Jinn (Jafar) and Female Water Jinn (Jasmine). Eternal lovers afflicted with an ironic curse that allows only one to exist at a time. They have reason to believe the key to releasing them from their predicament lies in Damerel, so they must cooperate to seek it out.
+* ''Melvin'' - Male Mercenary. A former Imperial Knight who has managed to conceal the secret of his identity from all his entire life. Now a mercenary, he enters Damerel in hopes of finding answers to questions he has held regarding his birth.
+* ''Nadia'' - Female Nymph. A magical protector of nature and all its denizens. Has arrived at Damerel to respond to the unnatural cries coming from within.
+* ''Oggdush'' - Male Ogre. A shaman cast out from his tribe for his otherworldly visions. Journeying without a place to call home for years, he has finally arrived where his visions have been leading him all along: Damerel.
+* ''Wrufein'' - Male Wraith. An grim apparition whose motives in Damerel are undisclosed.
+
+@@.center;
+  [[Continue|confirm character]]
+@@
+
+:: confirm character
+You are ''$character''.
+
+Is that correct?
+
+@@.center;
+  [[Yes|town center]]
+  [[No|character select]]
+@@
