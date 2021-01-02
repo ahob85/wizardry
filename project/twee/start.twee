@@ -16,6 +16,7 @@ Wizardry
 <<set $luck = random(6) + 6>>
 
 :: story opening 1
+<<audio "damerel" loop play>>
 "Two years ago, Queen Jilfaen died from circumstances that remain unresolved to this day. Upon her death, Jilfaen's sole heiress was immediately bequeathed the crown. This event made her, at age fifteen, the youngest queen in the history of the Realm."
 
 Tyrell paused and peered out of the window into the soundless winter night. J'Mel lifted his pen from the scroll and casually dipped it into the inkwell. He could not tell if his older brother was lost in thought or awaiting an eavesdropper's misstep.
